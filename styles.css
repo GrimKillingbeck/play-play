@@ -1,0 +1,274 @@
+div {
+  background-color: #F6F7D7;
+
+}
+
+
+
+body{
+margin: 0;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+h1 {
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+color: #8946A6;
+font-size: 90px;
+line-height: 1;
+
+}
+
+h2{
+font-family: 'Patrick Hand SC', cursive;
+color: #8946A6;
+
+}
+
+h3{
+font-family: 'Patrick Hand SC', cursive;
+font-weight: 900;
+color: #8946A6;
+}
+
+.top-container
+{
+  background-color: #3EC1D3;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+  .bottom-cloud {
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+
+  }
+
+  .top-cloud {
+    position:absolute;
+    right: 600px;
+    top: 50px
+  }
+
+
+  hr {
+ border: 8px dotted ;
+ border-style: dotted none none none;
+ width: 10%;
+ color: #FF165D;
+}
+.heading-programmer{
+ font-size: 3.5rem;
+}
+span.under {
+  text-decoration: underline;
+  font-weight: bold;
+}
+/*****MIDDLE CONTAINER STYLES********/
+.technical-columns {
+  columns: 3;
+  column-gap: 55px;
+  padding-top: 30px;
+  text-align:left;
+  padding-left: 300px;
+}
+
+.soft-columns {
+  columns: 3;
+  column-gap: 55px;
+  padding-top: 30px;
+  text-align:left;
+  padding-left: 300px;
+}
+
+.profile{
+  width: 42%;
+  margin: 0 auto 0 auto;
+}
+
+/*bottom container styles */
+.bottom-container{
+  background-color : #ecedba;
+  height: 100px;
+}
+
+.skill-row {
+  width : 42%;
+  margin: 0 auto 0 auto;
+  line-height: 1.5;
+  text-align:left;
+  }
+
+.skills{
+  width: 15%;
+  float:left;
+  margin-right: 30px;
+}
+
+.passion{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+table {
+  border-spacing: 325px 0px;
+
+}
+
+.SE {
+  padding-right: 200px;
+}
+
+.T1 {
+  padding-left: 225px;
+}
+
+.T12 {
+  position: relative;
+  right: 100px;
+}
+
+.EBY {
+  padding-right: 30px;
+}
+
+/** Testing Button Hide-Unhide Functions**/
+
+button {
+background-color: #FF165D;
+color: #FFFFFF;
+border-radius: 5px;
+font-family: 'Roboto', sans-serif;
+box-shadow: inset 5px 1px #A91079;
+border-width: thin;
+font-size: 16px;
+height: 40px;
+}
+
+input {
+  display: none;
+}
+
+section > div {
+  display: none;
+}
+
+#radio-section-0:checked ~ #section-0 > div {
+  display: block;
+
+}
+
+#radio-section-1:checked ~ #section-1 > div {
+  display: block;
+}
+
+#radio-section-2:checked ~ #section-2 > div {
+  display: block;
+}
+
+
+/** word positioning for buttons**/
+.starry{
+ position: relative;
+ bottom: 15px;
+ color: #FFFFFF;
+}
+
+.dookie {
+  position: relative;
+  bottom: 15px;
+  color: #FFFFFF;
+
+}
+.starryexpert{
+  columns: 2;
+  column-gap: 200px;
+  padding-right: 200px;
+  text-align:left;
+}
+
+.SS{
+padding-right: 150px;
+}
+ul.starry-list2{
+  text-align: left;
+  padding-left: 550px;
+
+}
+
+ul.starry-list {
+text-align: left;
+padding-left: 550px;
+  }
+
+ul.cert-list {
+text-align: left;
+
+}
+ul.eby-list{
+  text-align: left;
+  padding-left: 550px;
+}
+.cert-list{
+  columns: 2;
+  width: 50%
+  text-align:left;
+}
+.footer-link {
+  color: #8946A6;
+  text-shadow:2px 2px #C3AED6;
+}
+
+.poopjob{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* Certificates Styles */
+.certs {
+width:42%;
+margin: 0 auto 0 auto;
+}
+
+a.projectmgmt{
+  margin-right: 25px;
+}
+/* Contact Me Container Styles*/
+
+.btn {
+  background: #FF165D;
+  background-image: -webkit-linear-gradient(top, #FF165D, #eb6b91);
+  background-image: -moz-linear-gradient(top, #FF165D, #eb6b91);
+  background-image: -ms-linear-gradient(top, #FF165D, #eb6b91);
+  background-image: -o-linear-gradient(top, #FF165D, #eb6b91);
+  background-image: linear-gradient(to bottom, #FF165D, #eb6b91);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: Roboto , sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFC600;
+  background-image: -webkit-linear-gradient(top, #FFC600, #FF165D);
+  background-image: -moz-linear-gradient(top, #FFC600, #FF165D);
+  background-image: -ms-linear-gradient(top, #FFC600, #FF165D);
+  background-image: -o-linear-gradient(top, #FFC600, #FF165D);
+  background-image: linear-gradient(to bottom, #FFC600, #FF165D);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #8946A6;
+}
+/*code for figuring out wtf is going on with my code
+* { border: 1px solid red; }*/
